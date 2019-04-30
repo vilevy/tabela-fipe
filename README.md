@@ -2,7 +2,7 @@
 
 - Crie uma pasta com a seu nome
 
-- Clone o repositorio https://github.com/Mobiauto/mobile-test-boilerplate
+- Clone o repositorio https://github.com/Mobiauto/frontend-test-boilerplate
 
 - Siga as instruções do README para rodar o boilerplate mobile
 
