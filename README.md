@@ -4,13 +4,19 @@
 
 - Clone o repositorio https://github.com/Mobiauto/frontend-test-boilerplate
 
-- Siga as instruções do README para rodar o boilerplate mobile
+- Siga as instruções abaixo para rodar o boilerplate mobile
 
 - O teste consiste em consultar esta API (http://deividfortuna.github.io/fipe/) e trazer os resultados na tela da melhor forma possível.
 
 - A ideia é ir filtrando as informações da API em 4 passos ou telas distintas: Marcas, Modelos, Anos e Valor.
 
+- Use algum gerenciador de estado (MobX ou Redux), preferencialmente MobX.
+
 Boa sorte! 
+
+
+
+
 
 
 
