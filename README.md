@@ -4,7 +4,7 @@
 
 - Clone o repositorio https://github.com/Mobiauto/frontend-test-boilerplate
 
-- Siga as instruções abaixo para rodar o boilerplate mobile
+- Siga as instruções abaixo para rodar o boilerplate 
 
 - O teste consiste em consultar esta API (http://deividfortuna.github.io/fipe/) e trazer os resultados na tela da melhor forma possível.
 
