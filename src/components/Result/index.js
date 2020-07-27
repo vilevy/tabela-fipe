@@ -33,7 +33,7 @@ const Result = ({ result }) => {
         </span>
       </div>
       <button className="result__button" onClick={() => handleButtonClick()}>
-        Nova busca
+        Nova consulta
       </button>
     </div>
   );

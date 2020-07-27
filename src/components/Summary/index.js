@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 
 import { translateSteps } from "../../helpers/steps";
 
+import arrow from "../../images/left-arrow.svg";
+
 import "./summary.scss";
 
 const Summary = ({ selected, handleOnClick }) => {
@@ -20,6 +22,7 @@ const Summary = ({ selected, handleOnClick }) => {
               key={`${step}-item.codigo`}
               onClick={() => handleOnClick(step)}
             >
+              <img className="summary__item__icon" src={arrow} alt="edit"/>
               <span className="summary__item__title">{`${translateSteps(
                 step
               )}: `}</span>
@@ -49,9 +52,8 @@ Summary.propTypes = {
     year: PropTypes.shape({
       nome: PropTypes.string,
       codigo: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    })
-  }
-  ),
+    }),
+  }),
   handleOnClick: PropTypes.func.isRequired,
 };
 
