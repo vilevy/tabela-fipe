@@ -1,0 +1,19 @@
+.summary {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #777777;
+
+  
+  &__item {
+    &:hover {
+      cursor: pointer;
+    }
+    
+    &__title {
+      font-weight: bold;
+    }
+  }
+}

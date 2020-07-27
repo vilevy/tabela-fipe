@@ -1,0 +1,14 @@
+.fipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100%;
+  background:#f3f3f3;
+  padding:  50px 15px 30px;
+
+  &__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}

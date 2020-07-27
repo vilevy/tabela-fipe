@@ -6,7 +6,7 @@ const routes = [
     path: "/",
     component: Home,
     key: "home"
-  }
+  },
 ];
 
 export default routes;

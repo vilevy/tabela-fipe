@@ -1,13 +1,8 @@
-import { observer, inject } from 'mobx-react'
-import RootStore from './RootStore'
+import { createStore, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
 
-const instance = new RootStore()
+import reducers from "./reducers";
 
-export default instance
+const store = createStore(reducers, applyMiddleware(thunk));
 
-export function connect(component, stores = []) {
-  if (!component) throw new Error('Component argument is required.')
-  if (stores.length === 0)
-    throw new Error('Stores must have at least one store name.')
-  return inject(...stores)(observer(component))
-}
+export default store;
